@@ -5,7 +5,7 @@ const config = {
     authDomain: 'spirit-animal-look-book-c92ea.firebaseapp.com',
     databaseURL: 'https://spirit-animal-look-book-c92ea.firebaseio.com',
     projectId: 'spirit-animal-look-book-c92ea',
-    storageBucket: '',
+    storageBucket: 'spirit-animal-look-book-c92ea.appspot.com',
     messagingSenderId: '446258458595'
 };
 

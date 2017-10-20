@@ -55,6 +55,17 @@ class App extends Component {
         {
           user
           ? <div> 
+              <section className="ProfileCards"> 
+                  {
+                   map(users, (user, uid) => {
+                        return <ProfileCard 
+                                user={user} 
+                                uid={uid}
+                                key={uid}
+                                />
+                   })
+                  }
+              </section> 
               <CurrentUser user={user}/>
             </div>
           : <SignIn />
